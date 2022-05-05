@@ -1,16 +1,3 @@
-// Create a new React app.
-// Create a new folder called components
-// Create a App.jsx component that returns a div, export it and import it in index.js
-// Create a Header.jsx component that renders a <header> element to show the Keeper in an <h1>.
-// Show Header component in the App component (in return)
-// Create a Footer.jsx component that renders a <footer> element to show a copyright message in a <p> with a dynamically updated year.
-// Show Footer compoenent in App component
-// Create a Note.jsx component to show a <div> element with a <h1> for a title and a <p> for the content.
-//6. Make sure that the final website is styled like the example shown here:
-//https://l1pp6.csb.app/
-
-//HINT: You will need to study the classes in teh styles.css file to appy styling.
-
 import React from "react";
 import ReactDOM from "react-dom"
 import App from "./components/App.jsx"
@@ -18,3 +5,13 @@ import App from "./components/App.jsx"
 ReactDOM.render(
     <App />, document.querySelector('#root')
 )
+
+//create a constant that keeps track of the title and content
+//pass new note back to app component
+//in app component, we'll have an rray to add it to the array and the array has state 
+//take the array and render separate separate note component for each item in the array 
+
+//deleting notes
+//callback fromnote compinent that's going to trigger a delete function 
+//delete funciton is going to live in app.js and will need filter function to filter out the item that needs deletion 
+//think about how to pass an id to the note component and pass it back to app component 
